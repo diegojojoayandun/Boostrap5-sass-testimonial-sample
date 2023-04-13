@@ -1,0 +1,29 @@
+$font-family-sans-serif: "Barlow Semi Condensed", sans-serif;
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .max-height-100 {
+    height: 100vh;
+  }
+}
+
+.d-flex img {
+  width: 50px;
+}
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px,
+) !default;
+// scss-docs-end container-max-widths
+
+$primary: #733fc8;
+$success: #49556b;
+$dark: #18202d;
+$secondary: #edf2f8;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
